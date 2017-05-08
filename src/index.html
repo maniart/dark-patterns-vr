@@ -1,11 +1,31 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title></title>
-</head>
-<body>
-  hello world.
-  <script type="text/javascript" src="/bundle.js"></script>
-</body>
-</html>
+  <head>
+    <title>Dark Patterns 0.2.0</title>
 
+    <!-- look at package.json and `copy` scripts. They ensure the following paths exist -->
+    <script type="text/javascript" src="./assets/js/aframe-master.js"></script>
+    <script type="text/javascript" src="./assets/js/aframe-extras.min.js"></script>
+
+    <style media="screen">
+      /*TODO fix this. this is a hack to make sure `vr` icon is showing correctly. why though? */
+      /*.a-enter-vr {
+        position: fixed!important;
+      }
+      body {
+        font-size: 16px;
+      }*/
+    </style>
+
+  </head>
+
+  <body>
+
+
+      <a-scene inspector>
+        <!-- Scene... -->
+      </a-scene>
+
+
+  </body>
+</html>
